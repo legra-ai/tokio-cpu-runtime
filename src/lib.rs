@@ -1,4 +1,5 @@
 #![deny(missing_docs)]
+#![doc = include_str!("../README.md")]
 //! A small, dedicated Tokio runtime for CPU-bound asynchronous work.
 //!
 //! [`CpuRuntime`] keeps CPU-heavy futures away from a latency-sensitive
