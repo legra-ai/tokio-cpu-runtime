@@ -20,7 +20,7 @@ The runtime:
 - caps workers at `max(1, available_parallelism - reserve)`;
 - keeps at least one worker even when the reserve exceeds machine capacity;
 - names workers `tokio-cpu-<n>`;
-- assigns workers low QoS through [`qos-threads`];
+- assigns workers low `QoS` through [`qos-threads`];
 - can be awaited from another Tokio runtime;
 - shuts down without blocking the dropping async task.
 
