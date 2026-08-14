@@ -1,6 +1,7 @@
 # tokio-cpu-runtime
 
 [![Crates.io](https://img.shields.io/crates/v/tokio-cpu-runtime.svg)](https://crates.io/crates/tokio-cpu-runtime)
+[![Downloads](https://img.shields.io/crates/d/tokio-cpu-runtime.svg)](https://crates.io/crates/tokio-cpu-runtime)
 [![Documentation](https://docs.rs/tokio-cpu-runtime/badge.svg)](https://docs.rs/tokio-cpu-runtime)
 [![CI](https://github.com/legra-ai/tokio-cpu-runtime/actions/workflows/ci.yml/badge.svg)](https://github.com/legra-ai/tokio-cpu-runtime/actions/workflows/ci.yml)
 [![License](https://img.shields.io/badge/license-MIT%20OR%20Apache--2.0-blue.svg)](LICENSE-MIT)
