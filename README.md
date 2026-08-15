@@ -20,7 +20,7 @@ The runtime:
 - caps workers at `max(1, available_parallelism - reserve)`;
 - keeps at least one worker even when the reserve exceeds machine capacity;
 - names workers `tokio-cpu-<n>`;
-- assigns workers low `QoS` through [`qos-threads`];
+- assigns workers low `QoS` through [`qos-threads`](https://crates.io/crates/qos-threads);
 - can be awaited from another Tokio runtime;
 - shuts down without blocking the dropping async task.
 
@@ -39,7 +39,7 @@ async fn main() -> Result<(), tokio_cpu_runtime::CpuRuntimeError> {
 }
 ```
 
-For owned components, clone [`CpuRuntime::handle`] and use that handle to
+For owned components, clone [`CpuRuntime::handle`](https://docs.rs/tokio-cpu-runtime/latest/tokio_cpu_runtime/struct.CpuRuntime.html#method.handle) and use that handle to
 spawn work without borrowing the runtime owner.
 
 ## Scope
