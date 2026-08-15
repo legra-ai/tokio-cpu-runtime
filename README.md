@@ -39,7 +39,7 @@ async fn main() -> Result<(), tokio_cpu_runtime::CpuRuntimeError> {
 }
 ```
 
-For owned components, clone [`CpuRuntime::handle`] and use that handle to
+For owned components, clone [`CpuRuntime::handle`](https://docs.rs/tokio-cpu-runtime/latest/tokio_cpu_runtime/struct.CpuRuntime.html#method.handle) and use that handle to
 spawn work without borrowing the runtime owner.
 
 ## Scope
