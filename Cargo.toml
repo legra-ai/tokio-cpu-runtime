@@ -1,6 +1,6 @@
 [package]
 name = "tokio-cpu-runtime"
-version = "0.1.0"
+version = "0.1.1"
 description = "A capped Tokio runtime for CPU-bound asynchronous work"
 authors = ["Jacobus Geluk <jacobus.geluk@dataroad.com>"]
 edition = "2024"
