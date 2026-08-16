@@ -2,7 +2,7 @@
 name = "tokio-cpu-runtime"
 version = "0.1.1"
 description = "A capped Tokio runtime for CPU-bound asynchronous work"
-authors = ["Jacobus Geluk <jacobus.geluk@dataroad.com>"]
+authors = ["DataRoad Inc, Delaware, USA, trading as Legra"]
 edition = "2024"
 rust-version = "1.97.1"
 license = "MIT OR Apache-2.0"
